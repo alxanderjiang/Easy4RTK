@@ -53,7 +53,7 @@ Easy4RTK provides pseudo-range differential GNSS (DGNSS) mode for low-cost singl
 
 Easy4RTK provides traditional single-frequency RTK (SF-RTK) mode for carrier phase available devices. Run all the blocks of 'rtk_single_freq.ipynb', you can get BDS static SF-RTK solutions of WUH2-JFNG basline in DOY 131, 2023. The figure below shows the positioning errors and ambiguities on B1 of this example results. The configurations are set in the third block, users can change it according to your own dataset. 
 
-<img src=./image/SFRTK.png>
+<img src=./image/SF-RTK.png>
 
 ## Dual-frequency RTK mode
 
