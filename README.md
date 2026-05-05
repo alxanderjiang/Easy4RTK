@@ -8,7 +8,7 @@ This is a part of open-source toolbox Easy4PNT. Other toolboxs of Easy4PNT is li
 
 ## Quick Start
 1. We provide a set of example data and a quick-start jupyter notebook tutorial "rtk_multi.ipynb". Make sure that you have sucessufully installed the Python as well as the numpy (for matrix computation), ipykernel (for running the Jupyter Notebook), numba (for accelerating Python computation).
-2. Due to the file size limitation of github (no more than 25MB for a file), we compress the "data" and "nav_result" folders into zip files and uploaded them to the Cloud Drive ([[Google Driver]](https://drive.google.com/drive/folders/1jiUGXHMB1W6iSe09Hc1iVTmT-9wfPqOy?usp=drive_link) or [[Lanzou Driver]](https://wwbwg.lanzouv.com/b01bjcqghe)). In order to try the provided example of C+E dual-frequency RTK solutions, you need first download and unzip the "data.zip" into the "data" folder in the project path. The example results for visualization is stored in 'nav_result.zip'. The above zip files are necessary to run Easy4PTK. 
+2. Due to the file size limitation of github (no more than 25MB for a file), we compress the "data" and "nav_result" folders into zip files and uploaded them to the Cloud Drive ([[Google Driver]](https://drive.google.com/drive/folders/1jiUGXHMB1W6iSe09Hc1iVTmT-9wfPqOy?usp=drive_link) or [[Lanzou Driver]](https://wwbwg.lanzouv.com/b01bje99pa)). In order to try the provided example of C+E dual-frequency RTK solutions, you need first download and unzip the "data.zip" into the "data" folder in the project path. The example results for visualization is stored in 'nav_result.zip'. The above zip files are necessary to run Easy4PTK. 
 3. After unzipping the "data" folder, run all the blocks of "rtk_multi.ipynb", you all get an Easy4PNT solution log file in form of ".npy". The running script is following the configuration block of "rtk_multi.ipynb": using the WUH2-HKCL baseline to conduct kinematic ultra-long distance RTK results. The details of configuration is shown in "rtk_multi.ipynb".
 4. We provided an example of visualizing the solution log file. Run the visulization blocks of rtk_multi.ipynb, or run all the blocks of 'nav_result.ipynb'  you can get figures about the RTK convergence curve, receiver clock bias, dSTEC scatter and the residuls scatter plot.
 
@@ -17,7 +17,7 @@ This is a part of open-source toolbox Easy4PNT. Other toolboxs of Easy4PNT is li
 ```bash
 git clone https://github.com/alxanderjiang/Easy4RTK.git
 ```
-2. Download the "data.zip" and "nav_result.zip" files from Google Drive ([[https://drive.google.com/drive/folders/1jiUGXHMB1W6iSe09Hc1iVTmT-9wfPqOy?usp=drive_link]](https://drive.google.com/drive/folders/1jiUGXHMB1W6iSe09Hc1iVTmT-9wfPqOy?usp=drive_link))) or LanZou Drive ([[https://wwbwg.lanzouv.com/b01bjcqghe]](https://wwbwg.lanzouv.com/b01bjcqghe)) . 
+2. Download the "data.zip" and "nav_result.zip" files from Google Drive ([[https://drive.google.com/drive/folders/1jiUGXHMB1W6iSe09Hc1iVTmT-9wfPqOy?usp=drive_link]](https://drive.google.com/drive/folders/1jiUGXHMB1W6iSe09Hc1iVTmT-9wfPqOy?usp=drive_link))) or LanZou Drive ([[https://wwbwg.lanzouv.com/b01bje99pa]](https://wwbwg.lanzouv.com/b01bje99pa)) . 
 3. Unzip the sample data folders: data.zip and nav_result.zip to the same path of Easy4RTK. If linux but no GUI, please run the following commends:
 
 ```bash
